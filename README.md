@@ -10,4 +10,4 @@
 
 <meta property="og:image" content="[링크](https://yeoung-day.github.io/Cordova/week2/report/project_2(2023_09_21)/index.html)https://yeoung-day.github.io/Cordova/week2/report/project_2(2023_09_21)/index.html">
 
- background-image: url('[링크](https://yeoung-day.github.io/Cordova/week2/report/project_2(2023_09_21)/index.html)https://yeoung-day.github.io/Cordova/week2/report/project_2(2023_09_21)/index.html'); 
+ background-image: url('(https://yeoung-day.github.io/Cordova/week2/report/project_2(2023_09_21)/index.html)https://yeoung-day.github.io/Cordova/week2/report/project_2(2023_09_21)/index.html'); 
