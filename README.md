@@ -1,3 +1,5 @@
 # Cordova
 
 [자기 소개](https://yeoung-day.github.io/Cordova/week2/report/project/info.html)
+[프로젝트_1](https://yeoung-day.github.io/Cordova/week2/report/project_1(2023_09_21)/index.html)
+[프로젝트_1(사진)](https://yeoung-day.github.io/Cordova/week2/report/project_1(2023_09_21)/Ppic.jpg)
