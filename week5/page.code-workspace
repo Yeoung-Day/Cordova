@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"path": "모바일웹웹앱하이브리드앱개정판_학습자용/예제코드/ch04_mportpolio"
+		},
+		{
+			"path": "모바일웹웹앱하이브리드앱개정판_학습자용/예제코드/ch05"
+		},
+		{
+			"path": "모바일웹웹앱하이브리드앱개정판_학습자용/예제코드/ch06"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "ch05"
+    }
+}
