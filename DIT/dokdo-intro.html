@@ -1,0 +1,205 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<style>
+   li { list-style:none; }
+  .picture { list-style:none; padding:0; margin:0; }
+  .picture li { float:left; width:50%;}
+  .picture li a {display:block; margin:5px; border: 1px }
+  .picture li img { display:block; width:50%;  height:auto;}
+  .picture li img:hover { display:block; width:100%;  height:auto;} 
+</style>
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="b">
+			<h1>DIT 컴퓨터소프트웨어과</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="logo.jpg" >
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">학과소개</a></li>
+				<li><a href="#movie" data-rel="dialog">학과소개영상/취업현황/인터뷰</a></li>
+				<li><a href="#wizard3-1" data-rel="dialog">교과였으면 하는 노래</a></li>
+				<li><a href="#gallery">학과사진</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>DIT학과소개_윤영철</h1>
+		</div>
+	</div>
+	
+	<div data-role="page" id="intro" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>컴퓨터소프트웨어과 소개</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="logo.jpg">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>학과소개</h3>
+					<p>컴퓨터소프트웨어과는 4차 산업의 핵심 분야인 인공지능(AI) · 빅데이터 · 사물인터넷(IoT) · 클라우드 컴퓨팅 등 지능정보기술을 활용한 창의 융합형 소프트웨어 개발 전문가를 양성하고 있습니다.</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>학습내용 : 1학년</h3>
+					<p>IT분야의 기본역량을 탄탄하게 갖추기 위한 핵심이론을 배우고 실습합니다. C프로그래밍, 프론트엔드프로그래밍, 사물인터넷프로그래밍, 인공지능입문, 컴퓨터구조, 자바프로그래밍, 데이터베이스, 오픈소스소프트웨어 등</p>
+				</div>
+				<div data-role="collapsible" >
+					<h3>학습내용 : 2학년</h3>
+					<p>프로젝트 중심의 현장실무를 학습합니다. 시스템분석및설계, 자료구조, 파이썬프로그래밍, 운영체제, 컴퓨터네트워크, 모바일앱개발, 모바일앱프로젝트, 백엔드프로그래밍, 인공지능프로그래밍, 클라우드컴퓨팅실습 등</p>
+				</div>
+
+				<div data-role="collapsible" >
+					<h3>학과 활동 : 프로젝트 수업</h3>
+					<p>핵심 전공과목별 팀프로젝트 수업을 통한 밀도 높은 현장실무 능력을 배양</p>
+				</div>
+
+				<div data-role="collapsible" >
+					<h3>학과 활동 : 산업기사특강</h3>
+					<p>1학년 2학기 후 산업기사 자격증 취득을 위해 산업기사 특강 실시
+						</p>
+				</div>
+
+				<div data-role="collapsible" >
+					<h3>학과 활동 : 산학연계 캡스톤디자인</h3>
+					<p>IT분야의 다양한 산학연계 주제들을 선정, 팀별 프로젝트를 진행하고 다양한 소프트웨어 경진대회에 참가</p>
+				</div>
+
+				<div data-role="collapsible" >
+					<h3>학과 활동 : 실무AI프로그래밍</h3>
+					<p>AI분야의 실전 응용을 위한 심화지식과 개발 경험을 습득하기 위한 교육 및 프로젝트 수행</p>
+				</div>
+
+
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>DIT학과소개_윤영철</h1>
+		</div>		
+	</div>
+	
+	<div data-role="page" id="movie" data-theme="b">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>학과소개영상/취업현황/인터뷰</h1>
+		</div>
+		<div data-role="content" >
+			<div class="ui-bar ui-bar-a">동의과학대학교 컴퓨터소프트웨어과 홍보영상</div><br/>
+			<li><iframe width="100%" height="240" src="https://www.youtube.com/embed/5DZtoD9njmA?si=J6VoFSUtCF78EY5S"></iframe></li><br/>
+
+			<div class="ui-bar ui-bar-a">2006년 졸업 박용권 - 우아한형제들</div><br/>
+			<li><iframe width="100%" height="240" src="https://www.youtube.com/embed/GVjW5e1bAcM?si=_gtkPVQ3Xck_IAXl"></iframe></li><br/>
+
+			<div class="ui-bar ui-bar-a">2021년 졸업 박건우 - (주)엔컴</div><br/>
+			<li><iframe width="100%" height="240" src="https://www.youtube.com/embed/WmTvOo_lpdI?si=czhfgD7gtuaaegEE"></iframe></li><br/>
+			
+		</div>
+		<div data-role="footer" data-theme="b">
+		</div>
+	</div>
+	
+	<div data-role="page" id="wizard3-1">
+		<div data-role="header">
+			<h1>잔나비 -주저하는 연인들을 위해</h1>
+		</div>
+		<div data-role="content">
+			<div class="ui-bar ui-bar-e">잔나비 -주저하는 연인들을 위해</div><br/>
+			<audio controls width="100%" preload="metadata">
+				<source src="ju1.mp3" type="audio/mp3">
+			</audio>	
+			<img src="jan1.jpg" alt="" width="100%">
+		</div>
+		<div data-role="footer">
+			<a href="#home"  data-direction="reverse">이전</a>
+			<a href="#wizard3-2" data-rel="dialog" data-transition="slide">다음</a>
+		</div>
+	</div>
+
+	<div data-role="page" id="wizard3-2">
+		<div data-role="header">
+			<h1>Benson_Boone_-_Ghost_Town</h1>
+		</div>
+		<div data-role="content">
+			<div class="ui-bar ui-bar-e">Benson_Boone_-_Ghost_Town</div><br/>
+			<audio controls width="100%" preload="metadata">
+				<source src="b1.mp3" type="audio/mp3">
+			</audio>			
+			<img src="g1.jpg" alt="" width="100%">
+		</div>
+		<div data-role="footer">
+			<a href="#wizard3-1"  data-direction="reverse">이전</a>
+			<a href="#home">처음</a>
+		</div>
+	</div>
+
+	<div data-role="page" id="gallery"  data-theme="b">
+		<div data-role="header" data-position="fixed"  data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+			<h1>DIT 갤러리</h1>
+			<p id="photo">
+				<img src="11.jpg" width="320" alt="320" />
+			</p>		
+		</div>
+		<div data-role="content">
+            <div class="gallery">
+				<div class="main_image">
+					<img src="10.jpg" width="320" alt="320"/>
+				</div>
+			
+				<div class="selection_image">
+					<div class="thumb">
+							 <div class="overlay"></div>
+							 <img src="1.jpg" width="320" alt="320"/>
+					</div>
+					<div class="thumb">
+							 <div class="overlay"></div>
+							 <img src="2.jpg" width="320" alt="320"/>
+					</div>
+					<div class="thumb">
+							 <div class="overlay"></div>
+							 <img src="3.jpg" width="320" alt="320"/>
+					</div>
+					<div class="thumb">
+							 <div class="overlay"></div>
+							 <img src="4.jpg" width="320" alt="320"/>
+					</div>
+					<div class="thumb">
+							 <div class="overlay"></div>
+							 <img src="5.jpg" width="320" alt="320"/>
+					</div>
+					<div class="thumb">
+							 <div class="overlay"></div>
+							 <img src="6.jpg" width="320" alt="320"/>
+					</div>
+					<div class="thumb">
+							 <div class="overlay"></div>
+							 <img src="7.jpg" width="320" alt="320"/>
+					</div>
+					<div class="thumb">
+							 <div class="overlay"></div>
+							 <img src="8.jpg" width="320" alt="320"/>
+					</div>
+					<div class="thumb">
+							 <div class="overlay"></div>
+							 <img src="9.jpg" width="320" alt="320"/>
+					</div>
+				</div>
+			</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>DIT학과소개_윤영철</h1>
+		</div>		
+	</div>
+</div>	
+</body>
+</html>
